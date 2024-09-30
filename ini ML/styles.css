@@ -1,0 +1,250 @@
+/* styles.css */
+body, h1, h3{
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #6CBEC7, #81DAE3);
+    font-family: "Poppins", sans-serif;
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: none;
+    z-index: 1;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.nav-menu {
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-menu li {
+    float: left;
+}
+
+.nav-menu li a, .dropdown-content a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-menu li:hover {
+    background-color: transparent;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(226, 223, 223);
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 1.5rem;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-size: 1rem;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+.fsh {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.fsh video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 80%;
+}
+
+.judul {
+    text-align: center;
+    justify-content: center;
+    margin-top: 15rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    color: wheat;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+}
+
+.about {
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    font-weight: bold;
+}
+
+.about1 {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.about2 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-bottom: 5rem;
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.hiddoen {
+    opacity: 0%;
+    margin-top: 20.5rem;
+    margin-bottom: 1rem;
+}
+.expl {
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.hidden {
+    opacity: 0%;
+    cursor: default;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.heroes {
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    top: 0%;
+    display: flex;
+    gap: 7rem;
+    width: max-content;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.hero {
+    text-align: center;
+    width: 200px;
+    height: auto;
+}
+
+.hero img{
+    box-shadow: 2px 2px 5px rgb(0, 0,0.5);
+    height: 500px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    margin-right: 2rem;
+}
+
+.scroll {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.heroes h3 {
+    margin: 0;
+    padding: 0;
+    right: 0;
+    margin-left: 4.5rem;
+    justify-content: center;
+}
+
+.bg1 {
+    background-image: url(images/bg2\ rtt.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.bg2 {
+    background-image: url(images/bgnew.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg3 {
+    background-image: url(images/bgnew1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg4 {
+    background-image: url(images/bgnew2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg5 {
+    background-image: url(images/bgnew3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg6 {
+    background-image: url(images/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
